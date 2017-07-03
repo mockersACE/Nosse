@@ -1,10 +1,10 @@
 $ git tag
-v0.2
+v0.2.1
 
 <?php
 /**
  * Plugin Name: Nosse
- * Plugin URI: https://www.aceschools-rd.net/
+ * Plugin URI: https://github.com/mockersACE/Nosse
  * Description: Connections and code for Nosse social work system
  * Author: mockersACE
  * Author URI: https://github.com/mockersACE/Nosse
