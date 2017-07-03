@@ -1,3 +1,6 @@
+$ git tag
+v0.1
+
 <?php
 /**
  * Plugin Name: Nosse
