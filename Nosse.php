@@ -19,8 +19,11 @@
  *
  */
 
+ global $encryption_key;
+ $encryption_key= "3F8D68E61E54D";
+
  /** this line prevents direct access to the PHP file **/
-defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+defined( 'ABSPATH' ) or die( 'No direct access' );
 
 /** setup auto updates from github**/
 if( ! class_exists( 'Smashing_Updater' ) ){
@@ -30,6 +33,28 @@ $updater = new Smashing_Updater( __FILE__ );
 $updater->set_username( 'mockersACE' );
 $updater->set_repository( 'Nosse' );
 $updater->initialize();
+
+/** funtions below **/
+
+
+
+/** include page scripts below **/
+
+/** add new family **/
+$host = strtok($_SERVER['REQUEST_URI'],'?');
+if($host == '/families/add-new-family/')
+{
+    include ('pagescripts/newfamily.php');
+}
+
+/** add new commissioner **/
+$host = strtok($_SERVER['REQUEST_URI'],'?');
+if($host == '/manage/add-commissioner/')
+{
+    include ('pagescripts/newcommissioner.php');
+}
+
+
 
 
 ?>
