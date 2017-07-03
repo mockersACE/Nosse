@@ -1,5 +1,5 @@
 $ git tag
-v0.1
+v0.2
 
 <?php
 /**
@@ -33,3 +33,6 @@ $updater = new Smashing_Updater( __FILE__ );
 $updater->set_username( 'mockersACE' );
 $updater->set_repository( 'Nosse' );
 $updater->initialize();
+
+
+?>
