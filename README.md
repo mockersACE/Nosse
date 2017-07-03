@@ -1,3 +1,6 @@
+$ git tag
+v0.2
+
 # Nosse-Manager
 Family support case work management plugin for Wordpress.
 
