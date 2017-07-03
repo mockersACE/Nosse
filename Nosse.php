@@ -1,6 +1,3 @@
-$ git tag
-v0.2.1
-
 <?php
 /**
  * Plugin Name: Nosse
@@ -8,7 +5,7 @@ v0.2.1
  * Description: Connections and code for Nosse social work system
  * Author: mockersACE
  * Author URI: https://github.com/mockersACE/Nosse
- * Version: 0.1
+ * Version: 0.2.1
  * Text Domain: Nosse
  *
  * Copyright: (c) ACE Schools MAT

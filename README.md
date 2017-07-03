@@ -12,6 +12,3 @@ This plugin is designed to use Wordpress as a framework for a case work manageme
 We recommend using a non-wordpress database to store the casework information. The plugin uses the following databases-
 * Standard wordpress database as defined in wp-config.php
 * Extra database to hold data (needs defining in wp-config.php)
-
-$ git tag
-v0.2.1
